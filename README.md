@@ -1,15 +1,14 @@
-<div style='float:right;'>
+<div style="display:flex;">
 
-| Language | Colour |
-|:--------:|:------:|
-|Nim|![Nim](./assets/Nim.svg)|
-|Python|![Python](./assets/Python.svg)|
-|HTML|![HTML](./assets/HTML.svg)|
-|JavaScript|![JavaScript](./assets/JavaScript.svg)|
-|CSS|![CSS](./assets/CSS.svg)|
-|Shell|![Shell](./assets/Shell.svg)|
-|Less|![Less](./assets/Less.svg)|
-|TypeScript|![TypeScript](./assets/TypeScript.svg)|
-</div>
+Key:<br>
+![Nim](./assets/Nim.svg) - Nim<br>
+![Python](./assets/Python.svg) - Python<br>
+![HTML](./assets/HTML.svg) - HTML<br>
+![JavaScript](./assets/JavaScript.svg) - JavaScript<br>
+![CSS](./assets/CSS.svg) - CSS<br>
+![Shell](./assets/Shell.svg) - Shell<br>
+![Less](./assets/Less.svg) - Less<br>
+![TypeScript](./assets/TypeScript.svg) - TypeScript<br>
 
 ![Pie Chart](./assets/pie_chart.svg "Pie Chart detailing languages used")
+</div>

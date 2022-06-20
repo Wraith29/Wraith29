@@ -7,8 +7,8 @@ def update_readme():
     language_map = get_language_map()
     pie_chart = create_pie_chart(500, language_map)
 
-    with open('./README.md', 'w') as f:
-        f.write(f"{language_colour_map}\n\n{pie_chart}")
+    with open('./README.md', 'w') as readme:
+        readme.write(f'<div style="display:flex;">\n\n{language_colour_map}\n\n{pie_chart}\n</div>')
 
 if __name__ == "__main__":
     update_readme()
