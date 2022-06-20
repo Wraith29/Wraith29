@@ -1,5 +1,6 @@
 import math
 from language_colour_map import get_language_colour
+from create_svg import create_svg
 
 def get_pos_in_circle(center_x, center_y, radius, angle_in_degrees):
     x = center_x + (radius * math.cos(angle_in_degrees))
@@ -52,5 +53,6 @@ def create_pie_chart(svg_size, lang_map):
         data.append(f'<path class="{lang}" d="{create_arc(center_x, center_y, arc_data)}" fill="{colour}" stroke="{colour}" />')
         cumulative_total += angle_coverage
 
-    return '<svg width="{0}" height="{0}">\n{1}\n</svg>'.format(svg_size, '\n'.join(data))
+    create_svg(svg_size, svg_size, '\n'.join(data), 'pie_chart')
+    return '![Pie Chart](./assets/pie_chart.svg "Pie Chart detailing languages used")'
 

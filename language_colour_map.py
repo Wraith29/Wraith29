@@ -1,3 +1,5 @@
+from create_svg import create_svg
+
 LC_MAP = {
     "Nim": "#FFC200",
     "Python": "#3572A5",
@@ -9,11 +11,12 @@ LC_MAP = {
     "TypeScript": "#3178C6"
 }
 
-def colour_svg(colour):
-    return f'<svg width=10 height=10><rect width=10 height=10 fill="{colour}" /></svg>'
+def colour_svg(language, colour):
+    create_svg(10, 10, f'<rect width="10" height="10" fill="{colour}" />', language)
+    return f'![{language}](./assets/{language}.svg)'
 
-def generate_row(lang, colour):
-    return f'|{lang}|{colour_svg(colour)}|'
+def generate_row(language, colour):
+    return f'|{language}|{colour_svg(language, colour)}|'
 
 def get_nice_language_colour_map():
     rows = [
