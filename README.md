@@ -3,10 +3,12 @@
 <span align="right">
 
 ### Language Breakdown
+<div align="right">
+
 |Language|Count|
 |:------:|:---:|
 | ![](/./assets/Nim.svg) Nim|123|
-
+</div>
 </span>
 <span align="left">
 
