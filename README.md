@@ -1,19 +1,11 @@
-<div style="display:flex;">
-
-<div style="float:right;">
 
 ![Pie Chart](./assets/pie_chart.svg "Pie Chart detailing languages used")
 
-</div>
-
-Key:<br>
-![Nim](./assets/Nim.svg) - Nim<br>
-![Python](./assets/Python.svg) - Python<br>
-![HTML](./assets/HTML.svg) - HTML<br>
-![JavaScript](./assets/JavaScript.svg) - JavaScript<br>
-![CSS](./assets/CSS.svg) - CSS<br>
-![Shell](./assets/Shell.svg) - Shell<br>
-![Less](./assets/Less.svg) - Less<br>
-![TypeScript](./assets/TypeScript.svg) - TypeScript<br>
-
-</div>
+![Nim](./assets/Nim.svg) Nim
+![Python](./assets/Python.svg) Python
+![HTML](./assets/HTML.svg) HTML
+![JavaScript](./assets/JavaScript.svg) JavaScript
+![CSS](./assets/CSS.svg) CSS
+![Shell](./assets/Shell.svg) Shell
+![Less](./assets/Less.svg) Less
+![TypeScript](./assets/TypeScript.svg) TypeScript
