@@ -13,13 +13,13 @@ LC_MAP = {
 
 def colour_svg(language, colour):
     create_svg(10, 10, f'<rect width="10" height="10" fill="{colour}" />', language)
-    return f'![{language}](./assets/{language}.svg) - {language}<br>'
+    return f'![{language}](./assets/{language}.svg) {language}'
 
 def generate_row(language, colour):
     return colour_svg(language, colour)
 
 def get_nice_language_colour_map():
-    rows = ["Key:<br>"]
+    rows = []
 
     for language, colour in LC_MAP.items():
         rows.append(generate_row(language, colour))

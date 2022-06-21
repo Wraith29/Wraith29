@@ -1,4 +1,3 @@
-
 ![Pie Chart](./assets/pie_chart.svg "Pie Chart detailing languages used")
 
 ![Nim](./assets/Nim.svg) Nim

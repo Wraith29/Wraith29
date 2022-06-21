@@ -5,10 +5,10 @@ from language_colour_map import get_nice_language_colour_map
 def update_readme():
     language_colour_map = get_nice_language_colour_map()
     language_map = get_language_map()
-    pie_chart = create_pie_chart(500, language_map)
+    pie_chart = create_pie_chart(400, language_map)
 
     with open('./README.md', 'w') as readme:
-        readme.write(f'<div style="display:flex;">\n\n{language_colour_map}\n\n{pie_chart}\n</div>')
+        readme.write(f'{pie_chart}\n\n{language_colour_map}')
 
 if __name__ == "__main__":
     update_readme()

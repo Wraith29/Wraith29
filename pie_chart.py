@@ -42,7 +42,7 @@ def create_pie_chart(svg_size, lang_map):
     total = sum([v for v in lang_map.values()])
     center_x = svg_size // 2
     center_y = svg_size // 2
-    radius = (svg_size // 2) - 50
+    radius = svg_size // 2
     data = []
     cumulative_total = 0
     for lang, count in lang_map.items():
