@@ -50,7 +50,7 @@ def create_pie_chart(svg_size, lang_map):
         arc_data = create_arc_data(center_x, center_y, radius, cumulative_total, cumulative_total+angle_coverage)
         colour = get_language_colour(lang)
 
-        data.append(f'<path class="{lang}" d="{create_arc(center_x, center_y, arc_data)}" fill="{colour}" stroke="{colour}" tooltip="{lang}" />')
+        data.append(f'<path class="{lang}" d="{create_arc(center_x, center_y, arc_data)}" fill="{colour}" stroke="{colour}"><title>{lang}</title></path>')
         cumulative_total += angle_coverage
 
     create_svg(svg_size, svg_size, '\n'.join(data), 'pie_chart')
