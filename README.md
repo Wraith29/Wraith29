@@ -1,3 +1,4 @@
+
 <span align="center">
 
 ## Language Breakdown
@@ -6,14 +7,14 @@
 
 <foreignObject>
 <body xmlns="http://www.w3.org/1999/xhtml">
-<table align="center" border="0">
-<tr border="0">
-<td border="0">
+<table align="center">
+<tr>
+<td>
 
 ![Pie Chart](./assets/pie_chart.svg "Pie Chart detailing languages used")
 
 </td>
-<td border="0">
+<td>
 
 |Language|Count|
 |:-:|:-:|
@@ -32,5 +33,5 @@
 </body>
 </foreignObject>
 
-<sub>Last updated at: Tuesday 21 Jun 2022 16:05:07
+<sub>Last updated at: Tuesday 21 Jun 2022 16:04:31
         
