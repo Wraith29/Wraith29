@@ -1,10 +1,12 @@
 <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
-<path class="Nim" d="M 200 200 L 294 24 A 200 200 0 0 0 200 0 L 200 200" fill="#FFC200" stroke="#FFC200" />
-<path class="Python" d="M 200 200 L 19 285 A 200 200 0 1 0 294 24 L 200 200" fill="#3572A5" stroke="#3572A5" />
-<path class="HTML" d="M 200 200 L 4 166 A 200 200 0 0 0 19 285 L 200 200" fill="#E34C26" stroke="#E34C26" />
-<path class="CSS" d="M 200 200 L 16 122 A 200 200 0 0 0 4 166 L 200 200" fill="#563D7C" stroke="#563D7C" />
-<path class="Shell" d="M 200 200 L 16 122 A 200 200 0 0 0 16 122 L 200 200" fill="#89E051" stroke="#89E051" />
-<path class="JavaScript" d="M 200 200 L 33 92 A 200 200 0 0 0 16 122 L 200 200" fill="#F1E05A" stroke="#F1E05A" />
-<path class="TypeScript" d="M 200 200 L 187 1 A 200 200 0 0 0 33 92 L 200 200" fill="#3178C6" stroke="#3178C6" />
-<path class="Less" d="M 200 200 L 200 0 A 200 200 0 0 0 187 1 L 200 200" fill="#1D365D" stroke="#1D365D" />
+<path class="Nim" d="M 200 200 L 294 24 A 200 200 0 0 0 200 0 L 200 200" fill="#FFC200" stroke="#FFC200" tooltip="Nim">
+    <title>Nim</title>
+</path>
+<path class="Python" d="M 200 200 L 19 285 A 200 200 0 1 0 294 24 L 200 200" fill="#3572A5" stroke="#3572A5" tooltip="Python" />
+<path class="HTML" d="M 200 200 L 4 166 A 200 200 0 0 0 19 285 L 200 200" fill="#E34C26" stroke="#E34C26" tooltip="HTML" />
+<path class="CSS" d="M 200 200 L 16 122 A 200 200 0 0 0 4 166 L 200 200" fill="#563D7C" stroke="#563D7C" tooltip="CSS" />
+<path class="Shell" d="M 200 200 L 16 122 A 200 200 0 0 0 16 122 L 200 200" fill="#89E051" stroke="#89E051" tooltip="Shell" />
+<path class="JavaScript" d="M 200 200 L 33 92 A 200 200 0 0 0 16 122 L 200 200" fill="#F1E05A" stroke="#F1E05A" tooltip="JavaScript" />
+<path class="TypeScript" d="M 200 200 L 187 1 A 200 200 0 0 0 33 92 L 200 200" fill="#3178C6" stroke="#3178C6" tooltip="TypeScript" />
+<path class="Less" d="M 200 200 L 200 0 A 200 200 0 0 0 187 1 L 200 200" fill="#1D365D" stroke="#1D365D" tooltip="Less" />
 </svg>

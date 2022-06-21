@@ -1,4 +1,4 @@
-![Pie Chart](./assets/pie_chart.svg "Pie Chart detailing languages used")
+![Pie Chart](./assets/pie_chart.svg)
 
 ![Nim](./assets/Nim.svg) Nim
 ![Python](./assets/Python.svg) Python
