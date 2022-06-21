@@ -1,4 +1,3 @@
-
 <span align="center">
 
 ## Language Breakdown
@@ -16,10 +15,11 @@
 </td>
 <td>
 
-|Language|Count|
+|Language|Bytes|
 |:-:|:-:|
+|Total|247518
 ![Nim](./assets/Nim.svg) Nim|18961|
-![Python](./assets/Python.svg) Python|149657|
+![Python](./assets/Python.svg) Python|149542|
 ![HTML](./assets/HTML.svg) HTML|24064|
 ![CSS](./assets/CSS.svg) CSS|9097|
 ![Shell](./assets/Shell.svg) Shell|183|
@@ -33,5 +33,5 @@
 </body>
 </foreignObject>
 
-<sub>Last updated at: Tuesday 21 Jun 2022 16:04:31
+<sub>Last updated at: Tuesday 21 Jun 2022 19:44:50
         

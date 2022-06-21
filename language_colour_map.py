@@ -16,9 +16,11 @@ def generate_row(language, colour, count):
     return f'![{language}](./assets/{language}.svg) {language}|{count}|'
 
 def get_language_breakdown(language_map: dict[str, int]):
+    total = sum([v for v in language_map.values()])
     rows = [
-        "|Language|Count|",
+        "|Language|Bytes|",
         "|:-:|:-:|",
+        f"|Total|{total}"
     ]
 
     for language, count in language_map.items():
