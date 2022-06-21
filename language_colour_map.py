@@ -15,17 +15,6 @@ def generate_row(language, colour, count):
     create_svg(10, 10, f'<rect width="10" height="10" fill="{colour}" />', language)
     return f'![{language}](./assets/{language}.svg) {language}|{count}|'
 
-# def get_nice_language_colour_map():
-#     rows = [
-#         "|Language|Count|",
-#         "|:-:|:-:|"
-#     ]
-
-#     for language, colour in LC_MAP.items():
-#         rows.append(generate_row(language, colour))
-
-#     return '\n'.join(rows)
-
 def get_language_breakdown(language_map: dict[str, int]):
     rows = [
         "|Language|Count|",
