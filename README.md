@@ -1,6 +1,17 @@
+<span align="center">
+
 ## Language Breakdown
+</span>
+
+<foreignObject>
+<body xmlns="http://www.w3.org/1999/xhtml">
+<table>
+<tr>
+<td>
 
 ![Pie Chart](./assets/pie_chart.svg "Pie Chart detailing languages used")
+</td>
+<td>
 
 |Language|Count|
 |:-:|:-:|
@@ -12,5 +23,10 @@
 ![JavaScript](./assets/JavaScript.svg) JavaScript|6866|
 ![TypeScript](./assets/TypeScript.svg) TypeScript|36309|
 ![Less](./assets/Less.svg) Less|2496|
+</td>
+</tr>
+</table>
+</body>
+</foreignObject>
 
 <sub>Last Updated At: 21-Jun-2022 15:46:30</sub>
