@@ -1,21 +1,6 @@
-<style>
-.grid {
-    display: flex;
-    /* grid-template-columns: 1fr 1fr; */
-}
-
-.left-grid {
-    /* grid-column: 0; */
-}
-
-.right-grid {
-    /* grid-column: 1; */
-}
-</style>
-
 <div>
 
-<div class="grid">
+<div style="display:flex;">
 <span>
 
 ![Pie Chart](./assets/pie_chart.svg "Pie Chart detailing languages used")
