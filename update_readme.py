@@ -10,7 +10,7 @@ def update_readme():
     pie_chart = create_pie_chart(400, language_map)
 
     with open('./README.md', 'w') as readme:
-        readme.write(f'##Language Breakdown\n\n{pie_chart}\n\n{language_breakdown}\n\n<sub>Last Updated At: {datetime.now().strftime("%d-%b-%Y %H:%M:%S")}</sub>')
+        readme.write(f'## Language Breakdown\n\n{pie_chart}\n\n{language_breakdown}\n\n<sub>Last Updated At: {datetime.now().strftime("%d-%b-%Y %H:%M:%S")}</sub>')
 
 if __name__ == "__main__":
     update_readme()
