@@ -1,12 +1,12 @@
 <div>
 
 <div style="display:flex;">
-<span>
+<span align="left">
 
 ![Pie Chart](./assets/pie_chart.svg "Pie Chart detailing languages used")
 
 </span>
-<span>
+<span align="right">
 
 ### Language Breakdown
 |Language|Count|
