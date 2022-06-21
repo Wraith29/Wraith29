@@ -1,11 +1,5 @@
 <div>
 
-<div style="display:flex;">
-<span align="left">
-
-![Pie Chart](./assets/pie_chart.svg "Pie Chart detailing languages used")
-
-</span>
 <span align="right">
 
 ### Language Breakdown
@@ -14,6 +8,12 @@
 | ![](/./assets/Nim.svg) Nim|123|
 
 </span>
+<span align="left">
+
+![Pie Chart](./assets/pie_chart.svg "Pie Chart detailing languages used")
+
+</span>
+
 </div>
 
 ![Nim](./assets/Nim.svg) Nim
@@ -25,6 +25,5 @@
 ![Less](./assets/Less.svg) Less
 ![TypeScript](./assets/TypeScript.svg) TypeScript
 
-</div>
 
 <sub>Last Updated At: 21-Jun-2022 11:38:09</sub>
