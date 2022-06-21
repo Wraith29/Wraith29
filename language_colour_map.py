@@ -11,18 +11,30 @@ LC_MAP = {
     "TypeScript": "#3178C6"
 }
 
-def colour_svg(language, colour):
+def generate_row(language, colour, count):
     create_svg(10, 10, f'<rect width="10" height="10" fill="{colour}" />', language)
-    return f'![{language}](./assets/{language}.svg) {language}'
+    return f'![{language}](./assets/{language}.svg) {language}|{count}|'
 
-def generate_row(language, colour):
-    return colour_svg(language, colour)
+# def get_nice_language_colour_map():
+#     rows = [
+#         "|Language|Count|",
+#         "|:-:|:-:|"
+#     ]
 
-def get_nice_language_colour_map():
-    rows = []
+#     for language, colour in LC_MAP.items():
+#         rows.append(generate_row(language, colour))
 
-    for language, colour in LC_MAP.items():
-        rows.append(generate_row(language, colour))
+#     return '\n'.join(rows)
+
+def get_language_breakdown(language_map: dict[str, int]):
+    rows = [
+        "|Language|Count|",
+        "|:-:|:-:|",
+    ]
+
+    for language, count in language_map.items():
+        colour = get_language_colour(language)
+        rows.append(generate_row(language, colour, count))
 
     return '\n'.join(rows)
 
