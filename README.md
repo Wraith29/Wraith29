@@ -5,7 +5,7 @@
 
 <foreignObject>
 <body xmlns="http://www.w3.org/1999/xhtml">
-<table align="center">
+<table align="center" border="0">
 <tr>
 <td>
 
