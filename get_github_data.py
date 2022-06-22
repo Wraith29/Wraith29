@@ -38,4 +38,6 @@ def get_language_map(username = "Wraith29"):
             except KeyError:
                 lang_map[lang] = count
     
-    return lang_map
+    lm = dict(reversed(sorted(lang_map.items(), key = lambda x: x[1])))
+    
+    return lm

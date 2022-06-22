@@ -17,15 +17,15 @@
 
 |Language|Bytes|
 |:-:|:-:|
-|Total|247518
-![Nim](./assets/Nim.svg) Nim|18961|
-![Python](./assets/Python.svg) Python|149542|
-![HTML](./assets/HTML.svg) HTML|24064|
-![CSS](./assets/CSS.svg) CSS|9097|
-![Shell](./assets/Shell.svg) Shell|183|
-![JavaScript](./assets/JavaScript.svg) JavaScript|6866|
+|Total|247596
+![Python](./assets/Python.svg) Python|149620|
 ![TypeScript](./assets/TypeScript.svg) TypeScript|36309|
+![HTML](./assets/HTML.svg) HTML|24064|
+![Nim](./assets/Nim.svg) Nim|18961|
+![CSS](./assets/CSS.svg) CSS|9097|
+![JavaScript](./assets/JavaScript.svg) JavaScript|6866|
 ![Less](./assets/Less.svg) Less|2496|
+![Shell](./assets/Shell.svg) Shell|183|
 
 </td>
 </tr>
@@ -33,5 +33,5 @@
 </body>
 </foreignObject>
 
-<sub>Last updated at: Tuesday 21 Jun 2022 19:44:50
+<sub>Last updated at: Wednesday 22 Jun 2022 17:51:24
         
