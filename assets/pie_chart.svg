@@ -1,10 +1,12 @@
 <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
-<path class="Python" d="M 200 200 L 77 358 A 200 200 0 1 0 200 0 L 200 200" fill="#3572A5" stroke="#3572A5"><title>Python</title></path>
-<path class="TypeScript" d="M 200 200 L 1 197 A 200 200 0 0 0 77 358 L 200 200" fill="#3178C6" stroke="#3178C6"><title>TypeScript</title></path>
-<path class="HTML" d="M 200 200 L 39 83 A 200 200 0 0 0 1 197 L 200 200" fill="#E34C26" stroke="#E34C26"><title>HTML</title></path>
-<path class="Nim" d="M 200 200 L 113 21 A 200 200 0 0 0 39 83 L 200 200" fill="#FFC200" stroke="#FFC200"><title>Nim</title></path>
-<path class="CSS" d="M 200 200 L 156 6 A 200 200 0 0 0 113 21 L 200 200" fill="#563D7C" stroke="#563D7C"><title>CSS</title></path>
-<path class="JavaScript" d="M 200 200 L 190 1 A 200 200 0 0 0 156 6 L 200 200" fill="#F1E05A" stroke="#F1E05A"><title>JavaScript</title></path>
-<path class="Less" d="M 200 200 L 204 1 A 200 200 0 0 0 190 1 L 200 200" fill="#1D365D" stroke="#1D365D"><title>Less</title></path>
-<path class="Shell" d="M 200 200 L 204 1 A 200 200 0 0 0 204 1 L 200 200" fill="#89E051" stroke="#89E051"><title>Shell</title></path>
+<path class="Python" d="M 200 200 L 89 366 A 200 200 0 1 0 200 0 L 200 200" fill="#FFD343" stroke="#FFD343"><title>Python</title></path>
+<path class="TypeScript" d="M 200 200 L 1 214 A 200 200 0 0 0 89 366 L 200 200" fill="#3178C6" stroke="#3178C6"><title>TypeScript</title></path>
+<path class="HTML" d="M 200 200 L 27 100 A 200 200 0 0 0 1 214 L 200 200" fill="#E34C26" stroke="#E34C26"><title>HTML</title></path>
+<path class="Nim" d="M 200 200 L 92 33 A 200 200 0 0 0 27 100 L 200 200" fill="#FFC200" stroke="#FFC200"><title>Nim</title></path>
+<path class="CSS" d="M 200 200 L 132 13 A 200 200 0 0 0 92 33 L 200 200" fill="#563D7C" stroke="#563D7C"><title>CSS</title></path>
+<path class="JavaScript" d="M 200 200 L 166 4 A 200 200 0 0 0 132 13 L 200 200" fill="#F1E05A" stroke="#F1E05A"><title>JavaScript</title></path>
+<path class="C++" d="M 200 200 L 183 1 A 200 200 0 0 0 166 4 L 200 200" fill="#f34b7d" stroke="#f34b7d"><title>C++</title></path>
+<path class="Less" d="M 200 200 L 197 1 A 200 200 0 0 0 183 1 L 200 200" fill="#1D365D" stroke="#1D365D"><title>Less</title></path>
+<path class="Makefile" d="M 200 200 L 200 0 A 200 200 0 0 0 197 1 L 200 200" fill="#427819" stroke="#427819"><title>Makefile</title></path>
+<path class="Shell" d="M 200 200 L 200 0 A 200 200 0 0 0 200 0 L 200 200" fill="#89E051" stroke="#89E051"><title>Shell</title></path>
 </svg>

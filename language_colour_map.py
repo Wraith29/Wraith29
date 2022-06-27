@@ -2,13 +2,15 @@ from create_svg import create_svg
 
 LC_MAP = {
     "Nim": "#FFC200",
-    "Python": "#3572A5",
+    "Python": "#FFD343",
     "HTML": "#E34C26",
     "JavaScript": "#F1E05A",
     "CSS": "#563D7C",
     "Shell": "#89E051",
     "Less": "#1D365D",
-    "TypeScript": "#3178C6"
+    "TypeScript": "#3178C6",
+    "C++": "#f34b7d",
+    "Makefile": "#427819"
 }
 
 def generate_row(language, colour, count):
