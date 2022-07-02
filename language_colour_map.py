@@ -10,7 +10,8 @@ LC_MAP = {
     "Less": "#1D365D",
     "TypeScript": "#3178C6",
     "C++": "#f34b7d",
-    "Makefile": "#427819"
+    "Makefile": "#427819",
+    "Svelte": "#FF3E00"
 }
 
 def generate_row(language, colour, count):
