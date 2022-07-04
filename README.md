@@ -11,14 +11,13 @@
 <td>
 
 ![Pie Chart](./assets/pie_chart.svg "Pie Chart detailing languages used")
-
 </td>
 <td>
 
 |Language|Bytes|
 |:-:|:-:|
-|Total|257552
-![Python](./assets/Python.svg) Python|149740|
+|Total|257577
+![Python](./assets/Python.svg) Python|149765|
 ![TypeScript](./assets/TypeScript.svg) TypeScript|38023|
 ![HTML](./assets/HTML.svg) HTML|24362|
 ![Nim](./assets/Nim.svg) Nim|18908|
@@ -29,12 +28,11 @@
 ![Less](./assets/Less.svg) Less|2496|
 ![Makefile](./assets/Makefile.svg) Makefile|499|
 ![Shell](./assets/Shell.svg) Shell|183|
-
 </td>
 </tr>
 </table>
 </body>
 </foreignObject>
 
-<sub>Last updated at: Saturday 02 Jul 2022 17:49:25
-        
+<sub>
+Monday 04 Jul 2022 06:26:16</sub>
