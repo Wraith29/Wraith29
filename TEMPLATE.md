@@ -24,5 +24,6 @@
 </foreignObject>
 
 <sub>
+Last Updated At:
 {updated_at}
 </sub>
