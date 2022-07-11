@@ -1,11 +1,10 @@
 <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
-<path class="Python" d="M 200 200 L 92 368 A 200 200 0 1 0 200 0 L 200 200" fill="#FFD343" stroke="#FFD343"><title>Python</title></path>
-<path class="TypeScript" d="M 200 200 L 1 211 A 200 200 0 0 0 92 368 L 200 200" fill="#3178C6" stroke="#3178C6"><title>TypeScript</title></path>
-<path class="HTML" d="M 200 200 L 31 95 A 200 200 0 0 0 1 211 L 200 200" fill="#E34C26" stroke="#E34C26"><title>HTML</title></path>
-<path class="Nim" d="M 200 200 L 97 29 A 200 200 0 0 0 31 95 L 200 200" fill="#FFC200" stroke="#FFC200"><title>Nim</title></path>
-<path class="CSS" d="M 200 200 L 139 10 A 200 200 0 0 0 97 29 L 200 200" fill="#563D7C" stroke="#563D7C"><title>CSS</title></path>
-<path class="JavaScript" d="M 200 200 L 176 2 A 200 200 0 0 0 139 10 L 200 200" fill="#F1E05A" stroke="#F1E05A"><title>JavaScript</title></path>
-<path class="Svelte" d="M 200 200 L 190 1 A 200 200 0 0 0 176 2 L 200 200" fill="#FF3E00" stroke="#FF3E00"><title>Svelte</title></path>
-<path class="Less" d="M 200 200 L 204 1 A 200 200 0 0 0 190 1 L 200 200" fill="#1D365D" stroke="#1D365D"><title>Less</title></path>
-<path class="Shell" d="M 200 200 L 204 1 A 200 200 0 0 0 204 1 L 200 200" fill="#89E051" stroke="#89E051"><title>Shell</title></path>
+<path class="Python" d="M 200 200 L 57 339 A 200 200 0 1 0 200 0 L 200 200" fill="#FFD343" stroke="#FFD343"><title>Python</title></path>
+<path class="HTML" d="M 200 200 L 1 207 A 200 200 0 0 0 57 339 L 200 200" fill="#E34C26" stroke="#E34C26"><title>HTML</title></path>
+<path class="TypeScript" d="M 200 200 L 26 104 A 200 200 0 0 0 1 207 L 200 200" fill="#3178C6" stroke="#3178C6"><title>TypeScript</title></path>
+<path class="Nim" d="M 200 200 L 97 29 A 200 200 0 0 0 26 104 L 200 200" fill="#FFC200" stroke="#FFC200"><title>Nim</title></path>
+<path class="CSS" d="M 200 200 L 142 9 A 200 200 0 0 0 97 29 L 200 200" fill="#563D7C" stroke="#563D7C"><title>CSS</title></path>
+<path class="JavaScript" d="M 200 200 L 180 2 A 200 200 0 0 0 142 9 L 200 200" fill="#F1E05A" stroke="#F1E05A"><title>JavaScript</title></path>
+<path class="Less" d="M 200 200 L 200 0 A 200 200 0 0 0 180 2 L 200 200" fill="#1D365D" stroke="#1D365D"><title>Less</title></path>
+<path class="Shell" d="M 200 200 L 200 0 A 200 200 0 0 0 200 0 L 200 200" fill="#89E051" stroke="#89E051"><title>Shell</title></path>
 </svg>
