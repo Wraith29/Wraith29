@@ -16,14 +16,15 @@
 
 |Language|Bytes|
 |:-:|:-:|
-|Total|231334
+|Total|233894
 ![Python](./assets/Python.svg) Python|143890|
-![HTML](./assets/HTML.svg) HTML|26805|
+![HTML](./assets/HTML.svg) HTML|26982|
 ![Nim](./assets/Nim.svg) Nim|20644|
 ![TypeScript](./assets/TypeScript.svg) TypeScript|19829|
 ![CSS](./assets/CSS.svg) CSS|9097|
 ![JavaScript](./assets/JavaScript.svg) JavaScript|7094|
 ![Less](./assets/Less.svg) Less|3793|
+![Rust](./assets/Rust.svg) Rust|2383|
 ![Shell](./assets/Shell.svg) Shell|182|
 </td>
 </tr>
@@ -33,4 +34,4 @@
 
 <sub>
 Last Updated At:
-Wednesday 13 Jul 2022 11:13:14</sub>
+Wednesday 13 Jul 2022 11:19:29</sub>
