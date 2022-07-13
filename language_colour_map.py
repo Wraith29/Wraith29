@@ -2,7 +2,7 @@ from create_svg import create_svg
 
 LC_MAP = {
     "Nim": "#FFC200",
-    "Python": "#FFD343",
+    "Python": "#3572A5",
     "HTML": "#E34C26",
     "JavaScript": "#F1E05A",
     "CSS": "#563D7C",
