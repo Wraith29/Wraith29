@@ -1,7 +1,7 @@
 import requests as r
 from configparser import ConfigParser
 
-def reached_ratelimit(username, token):
+def reached_ratelimit(username: str, token: str) -> bool:
     url = f"https://api.github.com/users/{username}"
     res = r.get(url, headers={'Authorization': f'token {token}'}).headers
 
@@ -9,13 +9,13 @@ def reached_ratelimit(username, token):
         return True
     return False
 
-def get_token():
+def get_token() -> str:
     cp = ConfigParser()
     cp.read("./config.ini")
 
     return cp.get("user", "token")
 
-def get_repos(username = "Wraith29"):
+def get_repos(username: str) -> list:
     token = get_token()
 
     if reached_ratelimit(username, token):
@@ -24,9 +24,10 @@ def get_repos(username = "Wraith29"):
     
     url = f"https://api.github.com/users/{username}/repos"
     repos = r.get(url, headers={'Authorization': f'token {token}'}).json()
+
     return repos
 
-def get_language_map(username = "Wraith29"):
+def get_language_map(username: str) -> dict[str, int]:
     repos = get_repos(username)
     lang_map = {}
     for repo in repos:

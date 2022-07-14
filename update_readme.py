@@ -4,7 +4,7 @@ from get_github_data import get_language_map
 from language_colour_map import get_language_breakdown
 
 def update_readme():
-    language_map = get_language_map()
+    language_map = get_language_map("Wraith29")
     language_breakdown = get_language_breakdown(language_map)
     pie_chart = create_pie_chart(400, language_map)
     updated_at = datetime.now().strftime("%A %d %b %Y %H:%M:%S")
