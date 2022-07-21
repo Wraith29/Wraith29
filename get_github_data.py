@@ -5,9 +5,7 @@ def reached_ratelimit(username: str, token: str) -> bool:
     url = f"https://api.github.com/users/{username}"
     res = r.get(url, headers={'Authorization': f'token {token}'}).headers
 
-    if res["X-RateLimit-Remaining"] == 0:
-        return True
-    return False
+    return res["X-RateLimit-Remaining"] == 0
 
 def get_token() -> str:
     cp = ConfigParser()
