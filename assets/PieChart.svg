@@ -1,7 +1,7 @@
 <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
-<path class="Python" d="M 200 200 L 85 363 A 200 200 0 1 0 200 0 L 200 200" fill="#3572A5" stroke="#3572A5"><title>Python</title></path>
-<path class="HTML" d="M 200 200 L 5 248 A 200 200 0 0 0 85 363 L 200 200" fill="#E34C26" stroke="#E34C26"><title>HTML</title></path>
-<path class="Nim" d="M 200 200 L 13 128 A 200 200 0 0 0 5 248 L 200 200" fill="#FFC200" stroke="#FFC200"><title>Nim</title></path>
+<path class="Python" d="M 200 200 L 112 379 A 200 200 0 1 0 200 0 L 200 200" fill="#3572A5" stroke="#3572A5"><title>Python</title></path>
+<path class="Nim" d="M 200 200 L 12 268 A 200 200 0 0 0 112 379 L 200 200" fill="#FFC200" stroke="#FFC200"><title>Nim</title></path>
+<path class="HTML" d="M 200 200 L 13 128 A 200 200 0 0 0 12 268 L 200 200" fill="#E34C26" stroke="#E34C26"><title>HTML</title></path>
 <path class="TypeScript" d="M 200 200 L 74 44 A 200 200 0 0 0 13 128 L 200 200" fill="#3178C6" stroke="#3178C6"><title>TypeScript</title></path>
 <path class="CSS" d="M 200 200 L 115 18 A 200 200 0 0 0 74 44 L 200 200" fill="#563D7C" stroke="#563D7C"><title>CSS</title></path>
 <path class="JavaScript" d="M 200 200 L 151 5 A 200 200 0 0 0 115 18 L 200 200" fill="#F1E05A" stroke="#F1E05A"><title>JavaScript</title></path>
