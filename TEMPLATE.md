@@ -10,12 +10,12 @@
 <tr>
 <td>
 
-{pie_chart}
+{pieChart}
 
 </td>
 <td>
 
-{language_table}
+{languageTable}
 
 </td>
 </tr>
@@ -25,5 +25,5 @@
 
 <sub>
 Last Updated At:
-{updated_at}
+{updatedAt}
 </sub>
