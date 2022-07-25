@@ -1,6 +1,13 @@
-import tables, math, sugar, strformat, strutils
-import ./colours 
-import ./svg
+import 
+  std/[
+    tables, 
+    math, 
+    sugar, 
+    strformat, 
+    strutils
+  ], 
+  ./svg, 
+  ./colours
 
 type LanguageMap* = OrderedTable[string, int]
 

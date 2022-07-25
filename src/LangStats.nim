@@ -1,5 +1,14 @@
-import std/os, std/times, std/enumerate, std/strutils, std/strformat
-import ./github, ./language, ./pieChart
+import
+  std/[
+    os,
+    times,
+    enumerate,
+    strutils,
+    strformat
+  ],
+  ./github,
+  ./language,
+  ./pieChart
 
 proc update(username: string) =
   let 

@@ -1,4 +1,7 @@
-import strformat
+import 
+  std/[
+    strformat
+  ]
 
 proc createSvg*(width, height: int, data, filename: string) {.inline.} =
   let content = &"<svg width=\"{width}\" height=\"{height}\" xmlns=\"http://www.w3.org/2000/svg\">\n{data}\n</svg>"

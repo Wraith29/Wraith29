@@ -1,7 +1,14 @@
-import std/[math, strformat, tables, strutils, enumerate]
-import ./language
-import ./colours
-import ./svg
+import
+  std/[
+    math,
+    strformat,
+    tables,
+    strutils,
+    enumerate
+  ],
+  ./language,
+  ./colours,
+  ./svg
 
 type
   Pos = ref object

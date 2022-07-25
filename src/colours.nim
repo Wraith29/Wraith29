@@ -1,4 +1,7 @@
-import json
+import 
+  std/[
+    json
+  ]
 
 proc getLanguageColour*(language: string): string =
   let colours = readFile("colours.json").parseJson
