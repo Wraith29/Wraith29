@@ -18,9 +18,9 @@
 
 |Language|Bytes|
 |:-:|:-:|
-|Total|240709|
+|Total|240870|
 |![Python](./assets/Python.svg) Python|137637|
-|![Nim](./assets/Nim.svg) Nim|29629|
+|![Nim](./assets/Nim.svg) Nim|29790|
 |![HTML](./assets/HTML.svg) HTML|27423|
 |![TypeScript](./assets/TypeScript.svg) TypeScript|19829|
 |![CSS](./assets/CSS.svg) CSS|9097|
@@ -38,6 +38,6 @@
 
 <sub>
 Last Updated At:
-Monday 25 Jul 2022 13:06:36
+Monday 25 Jul 2022 13:09:30
 
 </sub>
