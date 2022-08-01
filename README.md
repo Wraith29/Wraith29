@@ -18,10 +18,10 @@
 
 |Language|Bytes|
 |:-:|:-:|
-|Total|240503|
+|Total|240418|
 |![Python](./assets/Python.svg) Python|137670|
-|![Nim](./assets/Nim.svg) Nim|29269|
-|![HTML](./assets/HTML.svg) HTML|27544|
+|![Nim](./assets/Nim.svg) Nim|29124|
+|![HTML](./assets/HTML.svg) HTML|27604|
 |![TypeScript](./assets/TypeScript.svg) TypeScript|19829|
 |![CSS](./assets/CSS.svg) CSS|9097|
 |![JavaScript](./assets/JavaScript.svg) JavaScript|7094|
@@ -38,6 +38,6 @@
 
 <sub>
 Last Updated At:
-Wednesday 27 Jul 2022 23:19:25
+Monday 01 Aug 2022 23:58:17
 
 </sub>
