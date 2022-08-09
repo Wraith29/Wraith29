@@ -1,13 +1,13 @@
 <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
-<path class="Python" d="M 200 200 L 121 384 A 200 200 0 1 0 200 0 L 200 200" fill="#3572A5" stroke="#3572A5"><title>Python</title></path>
-<path class="Nim" d="M 200 200 L 17 281 A 200 200 0 0 0 121 384 L 200 200" fill="#FFC200" stroke="#FFC200"><title>Nim</title></path>
-<path class="HTML" d="M 200 200 L 8 141 A 200 200 0 0 0 17 281 L 200 200" fill="#E34C26" stroke="#E34C26"><title>HTML</title></path>
-<path class="TypeScript" d="M 200 200 L 61 56 A 200 200 0 0 0 8 141 L 200 200" fill="#3178C6" stroke="#3178C6"><title>TypeScript</title></path>
-<path class="CSS" d="M 200 200 L 96 28 A 200 200 0 0 0 61 56 L 200 200" fill="#563D7C" stroke="#563D7C"><title>CSS</title></path>
-<path class="JavaScript" d="M 200 200 L 128 13 A 200 200 0 0 0 96 28 L 200 200" fill="#F1E05A" stroke="#F1E05A"><title>JavaScript</title></path>
-<path class="Rust" d="M 200 200 L 158 4 A 200 200 0 0 0 128 13 L 200 200" fill="#DEA584" stroke="#DEA584"><title>Rust</title></path>
-<path class="Less" d="M 200 200 L 179 1 A 200 200 0 0 0 158 4 L 200 200" fill="#1D365D" stroke="#1D365D"><title>Less</title></path>
-<path class="C++" d="M 200 200 L 196 0 A 200 200 0 0 0 179 1 L 200 200" fill="#f34b7d" stroke="#f34b7d"><title>C++</title></path>
-<path class="QMake" d="M 200 200 L 199 0 A 200 200 0 0 0 196 0 L 200 200" fill=green stroke=green><title>QMake</title></path>
-<path class="Shell" d="M 200 200 L 199 0 A 200 200 0 0 0 199 0 L 200 200" fill="#89E051" stroke="#89E051"><title>Shell</title></path>
+<path class="Python" d="M 200 200 L 125 385 A 200 200 0 1 0 200 0 L 200 200" fill="#3572A5" stroke="#3572A5"><title>Python</title></path>
+<path class="Nim" d="M 200 200 L 18 284 A 200 200 0 0 0 125 385 L 200 200" fill="#FFC200" stroke="#FFC200"><title>Nim</title></path>
+<path class="HTML" d="M 200 200 L 7 144 A 200 200 0 0 0 18 284 L 200 200" fill="#E34C26" stroke="#E34C26"><title>HTML</title></path>
+<path class="TypeScript" d="M 200 200 L 58 58 A 200 200 0 0 0 7 144 L 200 200" fill="#3178C6" stroke="#3178C6"><title>TypeScript</title></path>
+<path class="CSS" d="M 200 200 L 94 30 A 200 200 0 0 0 58 58 L 200 200" fill="#563D7C" stroke="#563D7C"><title>CSS</title></path>
+<path class="JavaScript" d="M 200 200 L 125 14 A 200 200 0 0 0 94 30 L 200 200" fill="#F1E05A" stroke="#F1E05A"><title>JavaScript</title></path>
+<path class="Rust" d="M 200 200 L 155 5 A 200 200 0 0 0 125 14 L 200 200" fill="#DEA584" stroke="#DEA584"><title>Rust</title></path>
+<path class="Less" d="M 200 200 L 175 1 A 200 200 0 0 0 155 5 L 200 200" fill="#1D365D" stroke="#1D365D"><title>Less</title></path>
+<path class="C++" d="M 200 200 L 193 0 A 200 200 0 0 0 175 1 L 200 200" fill="#f34b7d" stroke="#f34b7d"><title>C++</title></path>
+<path class="QMake" d="M 200 200 L 196 0 A 200 200 0 0 0 193 0 L 200 200" fill=#00FF00 stroke=#00FF00><title>QMake</title></path>
+<path class="Shell" d="M 200 200 L 196 0 A 200 200 0 0 0 196 0 L 200 200" fill="#89E051" stroke="#89E051"><title>Shell</title></path>
 </svg>
