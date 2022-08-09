@@ -1,0 +1,8 @@
+<svg width="140" height="20" xmlns="http://www.w3.org/2000/svg">
+    <rect x="00" width="70" height="20" fill="#000000" rx="5" />
+    <rect x="60" width="10" height="20" fill="#000000" />
+    <text x="15" y="15" fill="#fff" stroke="#fff" textLength="45">Repos:</text>
+    <rect x="70" width="70" height="20" fill="#33FF38" rx="5" />
+    <rect x="70" width="10" height="20" fill="#33FF38" />
+    <text x="95" y="15" file="#fff" stroke="#000">22</text>
+</svg>

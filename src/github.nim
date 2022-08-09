@@ -46,7 +46,7 @@ proc getRepos(username: string): JsonNode =
 proc getLanguageMap*(username: string): LanguageMap =
   let 
     client = getClient()
-    repos = username.getRepos
+    repos = username.getRepos()
   
   var url: string
 

@@ -1,3 +1,11 @@
+## About Me
+
+I am currently completing a Level 3 Apprenticeship in Software Development.
+
+I generally do Web Development, however I enjoy working with a variety of languages in a variety of contexts.
+
+![Repos](./assets/Repos.svg)
+
 <span align="center">
 
 ## Language Breakdown
@@ -18,17 +26,15 @@
 
 |Language|Bytes|
 |:-:|:-:|
-|Total|244422|
+|Total|240418|
 |![Python](./assets/Python.svg) Python|137670|
-|![Nim](./assets/Nim.svg) Nim|29102|
+|![Nim](./assets/Nim.svg) Nim|29124|
 |![HTML](./assets/HTML.svg) HTML|27604|
 |![TypeScript](./assets/TypeScript.svg) TypeScript|19829|
 |![CSS](./assets/CSS.svg) CSS|9097|
 |![JavaScript](./assets/JavaScript.svg) JavaScript|7094|
 |![Rust](./assets/Rust.svg) Rust|6026|
 |![Less](./assets/Less.svg) Less|3792|
-|![C++](./assets/C++.svg) C++|3174|
-|![QMake](./assets/QMake.svg) QMake|852|
 |![Shell](./assets/Shell.svg) Shell|182|
 
 
@@ -40,6 +46,6 @@
 
 <sub>
 Last Updated At:
-Tuesday 09 Aug 2022 10:57:57
+Monday 01 Aug 2022 23:58:17
 
 </sub>
