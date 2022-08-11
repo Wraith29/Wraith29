@@ -18,18 +18,18 @@
 
 |Language|Bytes|
 |:-:|:-:|
-|Total|246390|
-|![Python](./assets/Python.svg) Python|137670|
-|![Nim](./assets/Nim.svg) Nim|29433|
-|![HTML](./assets/HTML.svg) HTML|27604|
-|![TypeScript](./assets/TypeScript.svg) TypeScript|19829|
-|![CSS](./assets/CSS.svg) CSS|9097|
-|![JavaScript](./assets/JavaScript.svg) JavaScript|7094|
-|![Rust](./assets/Rust.svg) Rust|6026|
-|![C++](./assets/C++.svg) C++|4787|
-|![Less](./assets/Less.svg) Less|3792|
-|![QMake](./assets/QMake.svg) QMake|876|
-|![Shell](./assets/Shell.svg) Shell|182|
+|Total|243231|
+![Python](./assets/Python.svg) Python|137670|
+![Nim](./assets/Nim.svg) Nim|29433|
+![HTML](./assets/HTML.svg) HTML|27604|
+![TypeScript](./assets/TypeScript.svg) TypeScript|19829|
+![CSS](./assets/CSS.svg) CSS|9097|
+![JavaScript](./assets/JavaScript.svg) JavaScript|7094|
+![Rust](./assets/Rust.svg) Rust|6026|
+![Less](./assets/Less.svg) Less|3792|
+![C++](./assets/C++.svg) C++|1726|
+![QMake](./assets/QMake.svg) QMake|778|
+![Shell](./assets/Shell.svg) Shell|182|
 
 
 </td>
@@ -40,6 +40,6 @@
 
 <sub>
 Last Updated At:
-Tuesday 09 Aug 2022 11:49:22
+Thursday 11 Aug 2022 23:51:18
 
 </sub>

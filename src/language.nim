@@ -24,6 +24,17 @@ proc getLanguageBreakdown*(map: LanguageMap): string =
 
   for language, count in map.pairs:
     let colour = getLanguageColour(language)
-    rows.add(createLanguageRow(language, colour, count))
+    let langSvg = newSvg(10, 10, @[
+      newSvgNode(
+        Rect, 
+        attrs = @[
+          newSvgAttribute("width", "10"), 
+          newSvgAttribute("height", "10"),
+          newSvgAttribute("fill", colour),
+        ]
+      )
+    ])
+    langSvg.write(language)
+    rows.add(fmt"![{language}](./assets/{language}.svg) {language}|{count}|")
   
   rows.join("\n")

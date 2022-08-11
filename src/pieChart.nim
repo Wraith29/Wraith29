@@ -3,7 +3,6 @@ import
     math,
     strformat,
     tables,
-    strutils,
     enumerate
   ],
   ./language,
@@ -59,16 +58,18 @@ proc createPieChart*(svgSize: int, map: LanguageMap): string =
 
   var
     cumulativeTotal = 0
-    data = newSeq[string](map.len)
+    svg = newSvg(svgSize, svgSize)
 
   for index, (language, count) in enumerate(map.pairs):
     let 
       angleCoverage = ((count / total) * 360).toInt
       arc = newArc(center, radius, cumulativeTotal, cumulativeTotal + angleCoverage)
       colour = getLanguageColour(language)
+      arcSvg = newSvgNode(Path,children = @[newSvgNode(Title, children = @[newSvgNode(Text, inner = language)])],attrs = @[newSvgAttribute("class", language),newSvgAttribute("d", createArc(center, arc)),newSvgAttribute("fill", colour),newSvgAttribute("stroke", colour)])
+    
+    svg.add(arcSvg)
 
-    data[index] = createArcPath(language, colour, createArc(center, arc))
     cumulativeTotal += angleCoverage
   
-  createSvg(svgSize, svgSize, data.join("\n"), "PieChart")
+  svg.write("PieChart")
   "![Pie Chart](./assets/PieChart.svg \"Pie Chart Detailing used languages\")"
