@@ -14,5 +14,20 @@
     "Ruby": "#701516",
     "SCSS": "#C6538C",
     "Java": "#B07219",
-    "QMake": "#CCC"
+    "QMake": "#CCC",
+    "Sass": "#A53B70",
+    "C#": "#178600",
+    "Batchfile": "#C1F12E",
+    "Dockerfile": "#384D54",
+    "SQF": "#3F3F3F",
+    "GDScript": "#355570",
+    "GAP": "#0000CC",
+    "GLSL": "#5686A5",
+    "CMake": "#DA3434",
+    "C": "#555555",
+    "Handlebars": "#F7931E",
+    "ShaderLab": "#222C37",
+    "HLSL": "#AACE60",
+    "SourcePawn": "#F69E1D",
+    "Pawn": "#DBB284"
 }

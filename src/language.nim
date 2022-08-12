@@ -23,6 +23,7 @@ proc getLanguageBreakdown*(map: LanguageMap): string =
   ]
 
   for language, count in map.pairs:
+    let language = language.replace("#", "Sharp")
     let colour = getLanguageColour(language)
     let langSvg = newSvg(10, 10, @[
       newSvgNode(
