@@ -18,9 +18,9 @@
 
 |Language|Bytes|
 |:-:|:-:|
-|Total|257206|
-![Python](./assets/Python.svg) Python|138750|
-![Nim](./assets/Nim.svg) Nim|30721|
+|Total|268618|
+![Python](./assets/Python.svg) Python|139470|
+![Nim](./assets/Nim.svg) Nim|41413|
 ![HTML](./assets/HTML.svg) HTML|27702|
 ![TypeScript](./assets/TypeScript.svg) TypeScript|19829|
 ![Rust](./assets/Rust.svg) Rust|17008|
@@ -40,6 +40,6 @@
 
 <sub>
 Last Updated At:
-Tuesday 30 Aug 2022 21:58:20
+Monday 12 Sep 2022 22:23:22
 
 </sub>

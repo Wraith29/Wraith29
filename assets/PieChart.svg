@@ -1,10 +1,10 @@
-<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg"><path class="Python" d="M 200 200 L 151 394 A 200 200 0 1 0 200 0 L 200 200" fill="#3572A5" stroke="#3572A5"><title><text>Python</text></title></path>
-<path class="Nim" d="M 200 200 L 32 308 A 200 200 0 0 0 151 394 L 200 200" fill="#FFC200" stroke="#FFC200"><title><text>Nim</text></title></path>
-<path class="HTML" d="M 200 200 L 1 179 A 200 200 0 0 0 32 308 L 200 200" fill="#E34C26" stroke="#E34C26"><title><text>HTML</text></title></path>
-<path class="TypeScript" d="M 200 200 L 34 88 A 200 200 0 0 0 1 179 L 200 200" fill="#3178C6" stroke="#3178C6"><title><text>TypeScript</text></title></path>
-<path class="Rust" d="M 200 200 L 94 30 A 200 200 0 0 0 34 88 L 200 200" fill="#DEA584" stroke="#DEA584"><title><text>Rust</text></title></path>
-<path class="CSS" d="M 200 200 L 134 10 A 200 200 0 0 0 94 30 L 200 200" fill="#563D7C" stroke="#563D7C"><title><text>CSS</text></title></path>
-<path class="JavaScript" d="M 200 200 L 172 1 A 200 200 0 0 0 134 10 L 200 200" fill="#F1E05A" stroke="#F1E05A"><title><text>JavaScript</text></title></path>
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg"><path class="Python" d="M 200 200 L 175 398 A 200 200 0 1 0 200 0 L 200 200" fill="#3572A5" stroke="#3572A5"><title><text>Python</text></title></path>
+<path class="Nim" d="M 200 200 L 21 290 A 200 200 0 0 0 175 398 L 200 200" fill="#FFC200" stroke="#FFC200"><title><text>Nim</text></title></path>
+<path class="HTML" d="M 200 200 L 3 165 A 200 200 0 0 0 21 290 L 200 200" fill="#E34C26" stroke="#E34C26"><title><text>HTML</text></title></path>
+<path class="TypeScript" d="M 200 200 L 40 79 A 200 200 0 0 0 3 165 L 200 200" fill="#3178C6" stroke="#3178C6"><title><text>TypeScript</text></title></path>
+<path class="Rust" d="M 200 200 L 99 26 A 200 200 0 0 0 40 79 L 200 200" fill="#DEA584" stroke="#DEA584"><title><text>Rust</text></title></path>
+<path class="CSS" d="M 200 200 L 138 9 A 200 200 0 0 0 99 26 L 200 200" fill="#563D7C" stroke="#563D7C"><title><text>CSS</text></title></path>
+<path class="JavaScript" d="M 200 200 L 172 1 A 200 200 0 0 0 138 9 L 200 200" fill="#F1E05A" stroke="#F1E05A"><title><text>JavaScript</text></title></path>
 <path class="Less" d="M 200 200 L 189 0 A 200 200 0 0 0 172 1 L 200 200" fill="#1D365D" stroke="#1D365D"><title><text>Less</text></title></path>
 <path class="C++" d="M 200 200 L 196 0 A 200 200 0 0 0 189 0 L 200 200" fill="#f34b7d" stroke="#f34b7d"><title><text>C++</text></title></path>
 <path class="QMake" d="M 200 200 L 199 0 A 200 200 0 0 0 196 0 L 200 200" fill="#CCC" stroke="#CCC"><title><text>QMake</text></title></path>
