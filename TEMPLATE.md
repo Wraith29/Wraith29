@@ -1,3 +1,12 @@
+# About Me
+
+Hey, I'm Isaac.
+
+I really enjoy programming and learning new things.
+
+Professionally I use C# and Angular,
+but for personal projects I prefer to use Python or Nim
+
 <span align="center">
 
 ## Language Breakdown
