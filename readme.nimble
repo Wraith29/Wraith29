@@ -5,8 +5,7 @@ author        = "Isaac Naylor"
 description   = "A new awesome nimble package"
 license       = "MIT"
 srcDir        = "src"
-bin           = @["LangStats"]
-binDir        = "bin"
+bin           = @["readme"]
 
 
 # Dependencies
