@@ -27,10 +27,10 @@ but for personal projects I prefer to use Python or Nim
 
 |Language|Bytes|
 |:-:|:-:|
-|Total|299104|
-![Python](./assets/Python.svg) Python|159920|
-![Nim](./assets/Nim.svg) Nim|41893|
+|Total|287234|
+![Python](./assets/Python.svg) Python|159200|
 ![HTML](./assets/HTML.svg) HTML|30788|
+![Nim](./assets/Nim.svg) Nim|30743|
 ![TypeScript](./assets/TypeScript.svg) TypeScript|19829|
 ![Rust](./assets/Rust.svg) Rust|17008|
 ![JavaScript](./assets/JavaScript.svg) JavaScript|12602|
@@ -49,6 +49,6 @@ but for personal projects I prefer to use Python or Nim
 
 <sub>
 Last Updated At:
-Saturday 24 Sep 2022 12:38:48
+Tuesday 27 Sep 2022 20:09:50
 
 </sub>
