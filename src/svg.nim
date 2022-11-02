@@ -3,7 +3,8 @@ import
     strformat,
     strutils,
     sugar
-  ]
+  ],
+  class
 
 type SvgAttribute = tuple[name: string, value: string]
 
@@ -14,64 +15,65 @@ proc newSvgAttribute*(name, value: string): SvgAttribute =
 type SvgKind* = enum
   Circle, Ellipse, Line, Path, Rect, Text, Title
 
-type SvgNode = ref object
+class SvgNode:
   kind: SvgKind
   attrs: seq[SvgAttribute]
   children: seq[SvgNode]
   inner: string
 
-proc newSvgNode*(kind: SvgKind, children: seq[SvgNode] = @[], attrs: seq[SvgAttribute] = @[], inner: string = ""): SvgNode =
-  SvgNode(kind: kind, children: children, attrs: attrs, inner: inner)
+  func newSvgNode*(kind: SvgKind, children: seq[SvgNode] = @[], attrs: seq[SvgAttribute] = @[], inner: string = ""): SvgNode {.static.} =
+    SvgNode(kind: kind, children: children, attrs: attrs, inner: inner)
 
-proc add*(node: SvgNode, child: SvgNode) =
-  node.children.add(child)
+  func add*(self: SvgNode, child: SvgNode) =
+    self.children.add(child)
+  
+  func set*(self: SvgNode, name, value: string) =
+    self.attrs.add(newSvgAttribute(name, value))
+  
+  func `$`*(self): string =
+    let 
+      nk = toLower($self.kind)
 
-proc set*(node: SvgNode, name, value: string): void =
-  node.attrs.add(newSvgAttribute(name, value))
+      attrs = " " & collect(
+        for attr in self.attrs:
+          let val = attr.value.replace("\"", "")
+          &"{attr.name}=\"{val}\""
+      ).join(" ")
 
-proc `$`*(node: SvgNode): string =
-  let 
-    nk = toLower($node.kind)
+    var children: string
+    if self.children.len != 0:
+      children = collect(
+        for child in self.children:
+          $child
+      ).join(" ")
+    else:
+      children = self.inner
 
-    attrs = " " & collect(
-      for attr in node.attrs:
-        let val = attr.value.replace("\"", "")
-        &"{attr.name}=\"{val}\""
-    ).join(" ")
+    if attrs == " ":
+      &"<{nk}>{children}</{nk}>"
+    else:
+      &"<{nk}{attrs}>{children}</{nk}>"
 
-  var children: string
-  if node.children.len != 0:
-    children = collect(
-      for child in node.children:
-        $child
-    ).join(" ")
-  else:
-    children = node.inner
-
-  if attrs == " ":
-    &"<{nk}>{children}</{nk}>"
-  else:
-    &"<{nk}{attrs}>{children}</{nk}>"
-
-type Svg* = ref object
-  width, height: int
+class Svg:
+  width: int
+  height: int
   children: seq[SvgNode]
 
-proc newSvg*(width, height: int, children: seq[SvgNode] = @[]): Svg =
-  Svg(width: width, height: height, children: children)
+  proc newSvg*(width, height: int, children: seq[SvgNode] = @[]): Svg {.static.}=
+    Svg(width: width, height: height, children: children)
 
-proc add*(svg: Svg, child: SvgNode) =
-  svg.children.add(child)
+  proc add*(self: Svg, child: SvgNode) =
+    self.children.add(child)
 
-proc `$`*(svg: Svg): string =
-  let
-    height = svg.height
-    width = svg.width
-    children = collect(
-      for child in svg.children:
-        $child
-    ).join("\n")
-  &"<svg width=\"{width}\" height=\"{height}\" xmlns=\"http://www.w3.org/2000/svg\">{children}</svg>"
+  proc `$`*(self: Svg): string =
+    let
+      height = self.height
+      width = self.width
+      children = collect(
+        for child in self.children:
+          $child
+      ).join("\n")
+    &"<svg width=\"{width}\" height=\"{height}\" xmlns=\"http://www.w3.org/2000/svg\">{children}</svg>"
 
-proc write*(svg: Svg, filename: string): void =
-  writeFile(fmt"./assets/{filename}.svg", $svg)
+  proc write*(self: Svg, filename: string) =
+    writeFile(fmt"./assets/{filename}.svg", $self)

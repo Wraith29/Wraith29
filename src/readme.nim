@@ -30,7 +30,7 @@ proc update(username: string) =
     
   writeFile("./README.md", templ.join("\n"))
 
-proc main() =
+proc main =
   var username = "Wraith29"
   if paramCount() == 1:
     username = paramStr(1)
