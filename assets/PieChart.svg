@@ -5,7 +5,7 @@
 <path class="JavaScript" d="M 200 200 L 49 68 A 200 200 0 0 0 12 131 L 200 200" fill="#F1E05A" stroke="#F1E05A"><title><text>JavaScript</text></title></path>
 <path class="Rust" d="M 200 200 L 99 26 A 200 200 0 0 0 49 68 L 200 200" fill="#DEA584" stroke="#DEA584"><title><text>Rust</text></title></path>
 <path class="CSS" d="M 200 200 L 138 9 A 200 200 0 0 0 99 26 L 200 200" fill="#563D7C" stroke="#563D7C"><title><text>CSS</text></title></path>
-<path class="Zig" d="M 200 200 L 172 1 A 200 200 0 0 0 138 9 L 200 200" fill="#FF00FF" stroke="#FF00FF"><title><text>Zig</text></title></path>
+<path class="Zig" d="M 200 200 L 172 1 A 200 200 0 0 0 138 9 L 200 200" fill="EC915C" stroke="EC915C"><title><text>Zig</text></title></path>
 <path class="Less" d="M 200 200 L 186 0 A 200 200 0 0 0 172 1 L 200 200" fill="#1D365D" stroke="#1D365D"><title><text>Less</text></title></path>
 <path class="C++" d="M 200 200 L 193 0 A 200 200 0 0 0 186 0 L 200 200" fill="#f34b7d" stroke="#f34b7d"><title><text>C++</text></title></path>
 <path class="QMake" d="M 200 200 L 196 0 A 200 200 0 0 0 193 0 L 200 200" fill="#CCC" stroke="#CCC"><title><text>QMake</text></title></path>
