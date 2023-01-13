@@ -35,7 +35,7 @@ proc getRepos(username: string): JsonNode =
   let 
     client = getClient()
     token = getToken()
-    url = fmt"https://api.github.com/users/{username}/repos"
+    url = fmt"https://api.github.com/user/repos"
 
   if reachedRatelimit(username, token):
     echo "Ratelimit Reached, please try again later."
@@ -53,6 +53,8 @@ proc getLanguageMap*(username: string): LanguageMap =
   for repoNode in repos:
     ## Skipping Forks as they likely are more other peoples code than mine
     if repoNode["fork"].getBool():
+      continue
+    if repoNode["owner"]["login"].getStr() != "Wraith29":
       continue
     
     url = $repoNode.getOrDefault("languages_url")
