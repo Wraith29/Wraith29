@@ -1,13 +1,11 @@
-<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg"><path class="Python" d="M 200 200 L 193 399 A 200 200 0 1 0 200 0 L 200 200" fill="#3572A5" stroke="#3572A5"><title><text>Python</text></title></path>
-<path class="Nim" d="M 200 200 L 53 336 A 200 200 0 0 0 193 399 L 200 200" fill="#FFC200" stroke="#FFC200"><title><text>Nim</text></title></path>
-<path class="HTML" d="M 200 200 L 1 224 A 200 200 0 0 0 53 336 L 200 200" fill="#E34C26" stroke="#E34C26"><title><text>HTML</text></title></path>
-<path class="TypeScript" d="M 200 200 L 12 131 A 200 200 0 0 0 1 224 L 200 200" fill="#3178C6" stroke="#3178C6"><title><text>TypeScript</text></title></path>
-<path class="JavaScript" d="M 200 200 L 49 68 A 200 200 0 0 0 12 131 L 200 200" fill="#F1E05A" stroke="#F1E05A"><title><text>JavaScript</text></title></path>
-<path class="Rust" d="M 200 200 L 99 26 A 200 200 0 0 0 49 68 L 200 200" fill="#DEA584" stroke="#DEA584"><title><text>Rust</text></title></path>
-<path class="CSS" d="M 200 200 L 138 9 A 200 200 0 0 0 99 26 L 200 200" fill="#563D7C" stroke="#563D7C"><title><text>CSS</text></title></path>
-<path class="Zig" d="M 200 200 L 172 1 A 200 200 0 0 0 138 9 L 200 200" fill="EC915C" stroke="EC915C"><title><text>Zig</text></title></path>
-<path class="Less" d="M 200 200 L 186 0 A 200 200 0 0 0 172 1 L 200 200" fill="#1D365D" stroke="#1D365D"><title><text>Less</text></title></path>
-<path class="C++" d="M 200 200 L 193 0 A 200 200 0 0 0 186 0 L 200 200" fill="#f34b7d" stroke="#f34b7d"><title><text>C++</text></title></path>
-<path class="QMake" d="M 200 200 L 196 0 A 200 200 0 0 0 193 0 L 200 200" fill="#CCC" stroke="#CCC"><title><text>QMake</text></title></path>
-<path class="GDScript" d="M 200 200 L 199 0 A 200 200 0 0 0 196 0 L 200 200" fill="#355570" stroke="#355570"><title><text>GDScript</text></title></path>
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg"><path class="Python" d="M 200 200 L 158 395 A 200 200 0 1 0 200 0 L 200 200" fill="#3572A5" stroke="#3572A5"><title><text>Python</text></title></path>
+<path class="Nim" d="M 200 200 L 20 287 A 200 200 0 0 0 158 395 L 200 200" fill="#FFC200" stroke="#FFC200"><title><text>Nim</text></title></path>
+<path class="HTML" d="M 200 200 L 2 168 A 200 200 0 0 0 20 287 L 200 200" fill="#E34C26" stroke="#E34C26"><title><text>HTML</text></title></path>
+<path class="TypeScript" d="M 200 200 L 36 85 A 200 200 0 0 0 2 168 L 200 200" fill="#3178C6" stroke="#3178C6"><title><text>TypeScript</text></title></path>
+<path class="JavaScript" d="M 200 200 L 85 36 A 200 200 0 0 0 36 85 L 200 200" fill="#F1E05A" stroke="#F1E05A"><title><text>JavaScript</text></title></path>
+<path class="Rust" d="M 200 200 L 144 7 A 200 200 0 0 0 85 36 L 200 200" fill="#DEA584" stroke="#DEA584"><title><text>Rust</text></title></path>
+<path class="CSS" d="M 200 200 L 175 1 A 200 200 0 0 0 144 7 L 200 200" fill="#563D7C" stroke="#563D7C"><title><text>CSS</text></title></path>
+<path class="Less" d="M 200 200 L 189 0 A 200 200 0 0 0 175 1 L 200 200" fill="#1D365D" stroke="#1D365D"><title><text>Less</text></title></path>
+<path class="C++" d="M 200 200 L 196 0 A 200 200 0 0 0 189 0 L 200 200" fill="#f34b7d" stroke="#f34b7d"><title><text>C++</text></title></path>
+<path class="QMake" d="M 200 200 L 199 0 A 200 200 0 0 0 196 0 L 200 200" fill="#CCC" stroke="#CCC"><title><text>QMake</text></title></path>
 <path class="Shell" d="M 200 200 L 199 0 A 200 200 0 0 0 199 0 L 200 200" fill="#89E051" stroke="#89E051"><title><text>Shell</text></title></path></svg>

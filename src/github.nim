@@ -51,6 +51,10 @@ proc getLanguageMap*(username: string): LanguageMap =
   var url: string
 
   for repoNode in repos:
+    ## Skipping Forks as they likely are more other peoples code than mine
+    if repoNode["fork"].getBool():
+      continue
+    
     url = $repoNode.getOrDefault("languages_url")
     if url[0] == '"' and url[url.len-1] == '"':
       url = url.substr(1, url.len - 2)
